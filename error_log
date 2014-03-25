@@ -1,0 +1,8 @@
+[04-Feb-2014 00:37:53] PHP Parse error:  syntax error, unexpected T_STRING in /home/qvadmin/public_html/ams/mail.php on line 47
+[04-Feb-2014 00:45:55] PHP Parse error:  syntax error, unexpected T_STRING in /home/qvadmin/public_html/ams/mail.php on line 47
+[04-Feb-2014 00:49:34] PHP Parse error:  syntax error, unexpected T_STRING in /home/qvadmin/public_html/ams/mail.php on line 47
+[04-Feb-2014 10:28:21] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/qvadmin/public_html/ams/mail.php on line 45
+[04-Feb-2014 10:29:05] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/qvadmin/public_html/ams/mail.php on line 45
+[04-Feb-2014 10:29:48] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/qvadmin/public_html/ams/mail.php on line 45
+[04-Feb-2014 10:30:21] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/qvadmin/public_html/ams/mail.php on line 44
+[04-Feb-2014 10:31:17] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/qvadmin/public_html/ams/mail.php on line 44

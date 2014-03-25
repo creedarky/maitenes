@@ -1,0 +1,416 @@
+.space10 { height: 10px; }
+.space20 { height: 20px; }
+.space30 { height: 30px; }
+.space40 { height: 40px; }
+.space50 { height: 50px; }
+.space60 { height: 60px; }
+
+
+.video-player {
+	position: relative;
+	padding-bottom: 56.25%; /* 16/9 ratio */
+	padding-top: 30px; /* IE6 workaround*/
+	height: 0;
+	overflow: hidden;
+}
+.video-player .video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.video {
+	border: 0;
+}
+
+
+/*
+| --------------------------------
+| margin helper classes
+| --------------------------------
+*/
+.m {
+	margin: 15px;
+}
+.n-m {
+	margin: 0;
+}
+.m-t {
+	margin-top: 15px;
+}
+.m-b {
+	margin-bottom: 15px;
+}
+.m-l {
+	margin-left: 15px;
+}
+.m-r {
+	margin-right: 15px;
+}
+.m-t-b,
+.m-b-t {
+	margin: 15px 0;
+}
+.m-l-r,
+.m-r-l {
+	margin: 15px 0;
+}
+
+/* .sm */
+.m-sm {
+	margin: 10px;
+}
+.m-t-sm {
+	margin-top: 10px;
+}
+.m-b-sm {
+	margin-bottom: 10px;
+}
+.m-l-sm {
+	margin-left: 10px;
+}
+.m-r-sm {
+	margin-right: 10px;
+}
+.m-t-b-sm,
+.m-b-t-sm {
+	margin: 10px 0;
+}
+.m-l-r-sm,
+.m-r-l-sm {
+	margin: 10px 0;
+}
+
+/* .xs */
+.m-xs {
+	margin: 5px;
+}
+.m-t-xs {
+	margin-top: 5px;
+}
+.m-b-xs {
+	margin-bottom: 5px;
+}
+.m-l-xs {
+	margin-left: 5px;
+}
+.m-r-xs {
+	margin-right: 5px;
+}
+.m-t-b-xs,
+.m-b-t-xs {
+	margin: 5px 0;
+}
+.m-l-r-xs,
+.m-r-l-xs {
+	margin: 5px 0;
+}
+
+/* .md */
+.m-md {
+	margin: 20px;
+}
+.m-t-md {
+	margin-top: 20px;
+}
+.m-b-md {
+	margin-bottom: 20px;
+}
+.m-l-md {
+	margin-left: 20px;
+}
+.m-r-md {
+	margin-right: 20px;
+}
+.m-t-b-md,
+.m-b-t-md {
+	margin: 20px 0;
+}
+.m-l-r-md,
+.m-r-l-md {
+	margin: 20px 0;
+}
+
+/* .lg */
+.m-lg {
+	margin: 30px;
+}
+.m-t-lg {
+	margin-top: 30px;
+}
+.m-b-lg {
+	margin-bottom: 30px;
+}
+.m-l-lg {
+	margin-left: 30px;
+}
+.m-r-lg {
+	margin-right: 30px;
+}
+.m-t-b-lg,
+.m-b-t-lg {
+	margin: 30px 0;
+}
+.m-l-r-lg,
+.m-r-l-lg {
+	margin: 30px 0;
+}
+
+
+
+/*
+| --------------------------------
+| padding helper classes
+| --------------------------------
+*/
+.p {
+	padding: 15px;
+}
+.p-t {
+	padding-top: 15px;
+}
+.p-b {
+	padding-bottom: 15px;
+}
+.p-l {
+	padding-left: 15px;
+}
+.p-r {
+	padding-right: 15px;
+}
+.p-t-b,
+.p-b-t {
+	padding: 15px 0;
+}
+.p-l-r,
+.p-r-l {
+	padding: 15px 0;
+}
+
+/* .sm */
+.p-sm {
+	padding: 10px;
+}
+.p-t-sm {
+	padding-top: 10px;
+}
+.p-b-sm {
+	padding-bottom: 10px;
+}
+.p-l-sm {
+	padding-left: 10px;
+}
+.p-r-sm {
+	padding-right: 10px;
+}
+.p-t-b-sm,
+.p-b-t-sm {
+	padding: 10px 0;
+}
+.p-l-r-sm,
+.p-r-l-sm {
+	padding: 10px 0;
+}
+
+/* .xs */
+.p-xs {
+	padding: 5px;
+}
+.p-t-xs {
+	padding-top: 5px;
+}
+.p-b-xs {
+	padding-bottom: 5px;
+}
+.p-l-xs {
+	padding-left: 5px;
+}
+.p-r-xs {
+	padding-right: 5px;
+}
+.p-t-b-xs,
+.p-b-t-xs {
+	padding: 5px 0;
+}
+.p-l-r-xs,
+.p-r-l-xs {
+	padding: 5px 0;
+}
+
+/* .md */
+.p-md {
+	padding: 20px;
+}
+.p-t-md {
+	padding-top: 20px;
+}
+.p-b-md {
+	padding-bottom: 20px;
+}
+.p-l-md {
+	padding-left: 20px;
+}
+.p-r-md {
+	padding-right: 20px;
+}
+.p-t-b-md,
+.p-b-t-md {
+	padding: 20px 0;
+}
+.p-l-r-md,
+.p-r-l-md {
+	padding: 20px 0;
+}
+
+/* .lg */
+.p-lg {
+	padding: 30px;
+}
+.p-t-lg {
+	padding-top: 30px;
+}
+.p-b-lg {
+	padding-bottom: 30px;
+}
+.p-l-lg {
+	padding-left: 30px;
+}
+.p-r-lg {
+	padding-right: 30px;
+}
+.p-t-b-lg,
+.p-b-t-lg {
+	padding: 30px 0;
+}
+.p-l-r-lg,
+.p-r-l-lg {
+	padding: 30px 0;
+}
+
+
+
+/*
+| --------------------------------
+| typography helper classes
+| --------------------------------
+*/
+.text-up {
+	text-transform: uppercase;
+}
+.text-xs {
+	font-size: 10px;
+}
+.text-sm {
+	font-size: 12px;
+}
+.text-md {
+	font-size: 16px;
+}
+.text-lg {
+	font-size: 18px;
+}
+
+
+.list-inline > li {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 1px;
+}
+.list-block {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.list-block > li {
+	margin-top: 20px;
+}
+.list-block.li-m-sm > li {
+	margin-top: 10px;
+}
+.list-block.li-m-xs > li {
+	margin-top: 5px;
+}
+.list-block > li:first-child,
+.list-disc > li:first-child {
+	margin-top: 0;
+}
+.list-disc {
+	list-style: disc;
+	padding: 0 0 0 15px;
+}
+.list-disc > li {
+	margin-top: 10px;
+}
+.list-disc > li > a {
+	position: relative;
+}
+.list-disc > li > a:hover {
+	left: 4px;
+}
+
+
+.text-light {
+	font-weight: 300;
+}
+.text-regular { 
+	font-weight: 400;
+}
+.text-semibold {
+	font-weight: 600;
+}
+.text-bold {
+	font-weight: 700;
+}
+.text-extrabold {
+	font-weight: 800;
+}
+
+
+.letter-spacing {
+	letter-spacing: 7px;
+}
+.letter-spacing-lg {
+	letter-spacing: 10px;
+}
+.letter-spacing-sm {
+	letter-spacing: 3px;
+}
+
+
+.lh-lg {
+	line-height: 2.15;
+}
+
+
+.img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.inline-mid {
+	display: inline-block;
+	vertical-align: middle;
+}
+.vc > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.relative {
+	position: relative;
+}
+.vmid-box {
+	display: table;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.vmid-box > * {
+	display: table-cell;
+	vertical-align: middle;
+}
